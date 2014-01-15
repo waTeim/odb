@@ -1,9 +1,3 @@
-#
-# Be sure to run `pod spec lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "odb"
   s.version      = "2.2.0"
@@ -23,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.codesynthesis.com/products/odb"
   s.license      = 'GPL2'
   s.author       = { "waTeim" => "truthset@gmail.com" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/waTeim/odb.git", :tag => s.version.to_s }
 
   s.platform     = :osx, '10.8'
   s.requires_arc = false
