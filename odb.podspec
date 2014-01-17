@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author       = { "waTeim" => "truthset@gmail.com" }
   s.source       = { :git => "https://github.com/waTeim/odb.git", :tag => s.version.to_s }
 
-  s.platform     = :osx, '10.8'
+  s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
   s.public_header_files = 'include/**/.{h,hxx,ixx}'
