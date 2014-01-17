@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
+  s.source_files = 'include/**/.{h,hxx,ixx}'
   s.public_header_files = 'include/**/.{h,hxx,ixx}'
 end
