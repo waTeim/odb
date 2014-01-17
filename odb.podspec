@@ -24,4 +24,5 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 'lib/*.a'
   s.source_files = 'include/**/*.{h,hxx,ixx,txx}'
   s.public_header_files = 'include/**/*.{h,hxx,ixx,txx}'
+  s.preserve_paths = 'include','include/compilers','include/compilers/vc','include/details','include/details/meta','include/details/posix','include/details/shared-ptr','include/tr1'
 end
