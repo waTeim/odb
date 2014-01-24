@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "odb"
-  s.version      = "2.2.1"
+  s.version      = "2.2.2"
   s.summary      = "A C++ Object-Relational Mapping"
   s.description  = <<-DESC
                    ODB is an open-source, cross-platform, and cross-database
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.source_files = 'src/*.{c}'
+  s.source_files = 'src/*.{c}','include/h.h'
   s.public_header_files = 'include/**/*.{h,hxx,txx,ixx}'
   s.preserve_paths = 'src','include','include/compilers','include/compilers/vc','include/details','include/details/meta','include/details/posix','include/details/shared-ptr','include/tr1'
 end
