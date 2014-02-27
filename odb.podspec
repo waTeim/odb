@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.codesynthesis.com/products/odb"
   s.license      = 'GPL2'
   s.author       = { "waTeim" => "truthset@gmail.com" }
-  s.source       = { :git => "https://github.com/Clstroud/odb.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/waTeim/odb.git", :tag => s.version.to_s }
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.source_files = 'src/*.{c}','include/h.h'
+  s.source_files = 'src/*.h'
   s.public_header_files = 'include/**/*.{h,hxx,txx,ixx}'
   s.preserve_paths = 'src','include','include/compilers','include/compilers/vc','include/details','include/details/meta','include/details/posix','include/details/shared-ptr','include/tr1'
 end
