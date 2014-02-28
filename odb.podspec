@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.source_files = 'src/*.h'
-  s.public_header_files = 'include/**/*.{h,hxx,txx,ixx}'
-  s.preserve_paths = 'src','include','include/compilers','include/compilers/vc','include/details','include/details/meta','include/details/posix','include/details/shared-ptr','include/tr1'
+  s.source_files = s.public_header_files =
+    'include/**/*.{h,hxx,txx,ixx,options}',
+    'include/**/**/*.{h,hxx,txx,ixx,options}',
+    'include/**/**/**/*.{h,hxx,txx,ixx,options}'
+  s.header_mappings_dir = 'include'
 end
