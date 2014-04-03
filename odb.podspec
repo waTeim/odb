@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "odb"
   s.version      = "2.2.2"
-  s.summary      = "A C++ Object-Relational Mapping"
+  s.summary      = "A C++ Object-Relational Mapping."
   s.description  = <<-DESC
                    ODB is an open-source, cross-platform, and cross-database
                    object-relational mapping (ORM) system for C++. It allows you to
