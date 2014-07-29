@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :osx, '10.6'
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/poco/include"' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/odb/include"' }
   s.private_header_files = s.source_files =
     'include/**/*.{h,hxx,txx,ixx,options}',
     'include/**/**/*.{h,hxx,txx,ixx,options}',
